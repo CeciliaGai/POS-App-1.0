@@ -20,7 +20,7 @@
                                 <rect key="frame" x="20" y="783" width="374" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="结算">
+                                <buttonConfiguration key="configuration" style="plain" title="查看购物车">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 </buttonConfiguration>
                             </button>
