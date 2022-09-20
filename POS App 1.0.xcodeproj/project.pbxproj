@@ -21,6 +21,7 @@
 		80BE23D228D9AAFE00AC7EDD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23D128D9AAFE00AC7EDD /* Item.swift */; };
 		80BE23D928D9B24400AC7EDD /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23D728D9B24400AC7EDD /* ItemCell.swift */; };
 		80BE23DA28D9B24400AC7EDD /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BE23D828D9B24400AC7EDD /* ItemCell.xib */; };
+		80BE23DC28D9BE8700AC7EDD /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23DB28D9BE8700AC7EDD /* CartItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		80BE23D128D9AAFE00AC7EDD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		80BE23D728D9B24400AC7EDD /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		80BE23D828D9B24400AC7EDD /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		80BE23DB28D9BE8700AC7EDD /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				80BE23D128D9AAFE00AC7EDD /* Item.swift */,
 				80BE23D728D9B24400AC7EDD /* ItemCell.swift */,
 				80BE23D828D9B24400AC7EDD /* ItemCell.xib */,
+				80BE23DB28D9BE8700AC7EDD /* CartItem.swift */,
 			);
 			path = "POS App 1.0";
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			files = (
 				80BE23CE28D990A600AC7EDD /* ShoppingCartViewController.swift in Sources */,
 				80BE23A228D95D8900AC7EDD /* ItemListViewController.swift in Sources */,
+				80BE23DC28D9BE8700AC7EDD /* CartItem.swift in Sources */,
 				80BE23D028D9936900AC7EDD /* ReceiptViewController.swift in Sources */,
 				80BE239E28D95D8900AC7EDD /* AppDelegate.swift in Sources */,
 				80BE23D928D9B24400AC7EDD /* ItemCell.swift in Sources */,
