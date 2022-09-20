@@ -19,6 +19,8 @@
 		80BE23CE28D990A600AC7EDD /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23CD28D990A600AC7EDD /* ShoppingCartViewController.swift */; };
 		80BE23D028D9936900AC7EDD /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23CF28D9936900AC7EDD /* ReceiptViewController.swift */; };
 		80BE23D228D9AAFE00AC7EDD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23D128D9AAFE00AC7EDD /* Item.swift */; };
+		80BE23D928D9B24400AC7EDD /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23D728D9B24400AC7EDD /* ItemCell.swift */; };
+		80BE23DA28D9B24400AC7EDD /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BE23D828D9B24400AC7EDD /* ItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		80BE23CD28D990A600AC7EDD /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
 		80BE23CF28D9936900AC7EDD /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
 		80BE23D128D9AAFE00AC7EDD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		80BE23D728D9B24400AC7EDD /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		80BE23D828D9B24400AC7EDD /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				80BE23A828D95D8A00AC7EDD /* LaunchScreen.storyboard */,
 				80BE23AB28D95D8A00AC7EDD /* Info.plist */,
 				80BE23D128D9AAFE00AC7EDD /* Item.swift */,
+				80BE23D728D9B24400AC7EDD /* ItemCell.swift */,
+				80BE23D828D9B24400AC7EDD /* ItemCell.xib */,
 			);
 			path = "POS App 1.0";
 			sourceTree = "<group>";
@@ -240,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80BE23DA28D9B24400AC7EDD /* ItemCell.xib in Resources */,
 				80BE23AA28D95D8A00AC7EDD /* LaunchScreen.storyboard in Resources */,
 				80BE23A728D95D8A00AC7EDD /* Assets.xcassets in Resources */,
 				80BE23A528D95D8900AC7EDD /* Main.storyboard in Resources */,
@@ -271,6 +278,7 @@
 				80BE23A228D95D8900AC7EDD /* ItemListViewController.swift in Sources */,
 				80BE23D028D9936900AC7EDD /* ReceiptViewController.swift in Sources */,
 				80BE239E28D95D8900AC7EDD /* AppDelegate.swift in Sources */,
+				80BE23D928D9B24400AC7EDD /* ItemCell.swift in Sources */,
 				80BE23D228D9AAFE00AC7EDD /* Item.swift in Sources */,
 				80BE23A028D95D8900AC7EDD /* SceneDelegate.swift in Sources */,
 			);
