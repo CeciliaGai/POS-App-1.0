@@ -12,6 +12,12 @@ class ItemListViewController: UIViewController {
     @IBOutlet weak var itemListLabel: UILabel!
     @IBOutlet weak var totalAmountText: UITextField!
     
+    var items: [Item] = [
+        Item(name: "芒果", unit: "斤", price: 5),
+        Item(name: "可乐", unit: "瓶", price: 3),
+        Item(name: "薯片", unit: "袋", price: 4)
+    ]
+    
     @IBAction func goToShoppingCartButtonPressed(_ sender: UIButton) {
     }
     
