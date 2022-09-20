@@ -10,6 +10,11 @@ import UIKit
 
 class ShoppingCartViewController: UIViewController {
     
+    var cartItems: [CartItem] = [
+        CartItem(name: "芒果", number: 1, total: 3.5, reduction: 0),
+        CartItem(name: "可乐", number: 2, total: 6, reduction: 0)
+    ]
+    
     @IBOutlet weak var shoppingCartLabel: UILabel!
 
     @IBOutlet weak var totalPieceText: UITextField!
