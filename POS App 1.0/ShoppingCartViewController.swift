@@ -18,12 +18,14 @@ class ShoppingCartViewController: UIViewController {
     
     @IBOutlet weak var totalReductionText: UITextField!
     
-    @IBOutlet weak var submitButtonPressed: UIButton!
+    @IBAction func submitButtonPressed(_ sender: UIButton) {
+    }
     
-    @IBOutlet weak var goBackButtonPressed: UIButton!
-    
+    @IBAction func goBackButtonPressed(_ sender: UIButton) {
+    }
     override func viewDidLoad() {
         
     }
     
 }
+       

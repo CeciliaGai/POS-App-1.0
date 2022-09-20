@@ -24,6 +24,7 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="goToShoppingCartButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yhb-w7-RIR"/>
                                     <segue destination="b13-UL-uti" kind="show" id="bex-fi-eX9"/>
                                 </connections>
                             </button>
@@ -50,7 +51,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="goToShoppingCartButtonPressed" destination="T92-Fv-agk" id="bsj-FO-TRE"/>
                         <outlet property="itemListLabel" destination="DnG-jH-0vD" id="g4b-4x-iSg"/>
                         <outlet property="totalAmountText" destination="rTp-su-z5o" id="WXF-8S-O4R"/>
                     </connections>
@@ -105,6 +105,7 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="submitButtonPressed:" destination="b13-UL-uti" eventType="touchUpInside" id="DLB-b3-hjo"/>
                                     <segue destination="s0P-u4-iQr" kind="presentation" id="7rE-GP-nMF"/>
                                 </connections>
                             </button>
@@ -113,6 +114,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="返回"/>
+                                <connections>
+                                    <action selector="goBackButtonPressed:" destination="b13-UL-uti" eventType="touchUpInside" id="ddG-2B-hdj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZtT-cb-q4g"/>
@@ -120,9 +124,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="OgN-2A-Ebz"/>
                     <connections>
-                        <outlet property="goBackButtonPressed" destination="frr-Ni-ATD" id="rBf-NA-bRL"/>
                         <outlet property="shoppingCartLabel" destination="xET-Bu-iWu" id="yxo-bs-Zu9"/>
-                        <outlet property="submitButtonPressed" destination="Zdk-Yh-bAm" id="PFe-k5-biL"/>
                         <outlet property="totalAmoutText" destination="SCV-Fp-PZi" id="IBx-yh-lUh"/>
                         <outlet property="totalPieceText" destination="cV4-Ch-Wgh" id="sHv-Se-26O"/>
                         <outlet property="totalReductionText" destination="kKf-XO-q2I" id="TR9-DZ-acn"/>
@@ -169,13 +171,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="返回"/>
+                                <connections>
+                                    <action selector="goBackButtonPressed:" destination="s0P-u4-iQr" eventType="touchUpInside" id="hHa-dz-6q8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TfN-J5-VaV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="goBackButtonPressed" destination="Ybc-x8-hsi" id="jIU-2A-xBE"/>
                         <outlet property="receiptLabel" destination="Uzp-nx-eTT" id="fe0-Ep-BYZ"/>
                         <outlet property="totalAmountText" destination="Eu1-s3-Vqt" id="Ezk-K6-ayY"/>
                         <outlet property="totalReductionText" destination="4BT-RT-anP" id="feI-zs-zq8"/>
