@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ItemListViewController: UIViewController {
 
     @IBOutlet weak var itemListLabel: UILabel!
     @IBOutlet weak var totalAmountText: UITextField!
