@@ -104,6 +104,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="提交订单">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="s0P-u4-iQr" kind="presentation" id="7rE-GP-nMF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZtT-cb-q4g"/>
@@ -127,7 +130,7 @@
             <objects>
                 <viewController id="s0P-u4-iQr" customClass="ReceiptViewController" customModule="POS_App_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7pz-yl-TQC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="订单详情" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uzp-nx-eTT">
