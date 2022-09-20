@@ -50,7 +50,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="goToShoppingCartButton" destination="T92-Fv-agk" id="b4P-Zp-TwS"/>
+                        <outlet property="goToShoppingCartButtonPressed" destination="T92-Fv-agk" id="bsj-FO-TRE"/>
                         <outlet property="itemListLabel" destination="DnG-jH-0vD" id="g4b-4x-iSg"/>
                         <outlet property="totalAmountText" destination="rTp-su-z5o" id="WXF-8S-O4R"/>
                     </connections>
@@ -122,7 +122,7 @@
                     <connections>
                         <outlet property="goBackButtonPressed" destination="frr-Ni-ATD" id="rBf-NA-bRL"/>
                         <outlet property="shoppingCartLabel" destination="xET-Bu-iWu" id="yxo-bs-Zu9"/>
-                        <outlet property="submitButton" destination="Zdk-Yh-bAm" id="NRr-pU-fIO"/>
+                        <outlet property="submitButtonPressed" destination="Zdk-Yh-bAm" id="PFe-k5-biL"/>
                         <outlet property="totalAmoutText" destination="SCV-Fp-PZi" id="IBx-yh-lUh"/>
                         <outlet property="totalPieceText" destination="cV4-Ch-Wgh" id="sHv-Se-26O"/>
                         <outlet property="totalReductionText" destination="kKf-XO-q2I" id="TR9-DZ-acn"/>

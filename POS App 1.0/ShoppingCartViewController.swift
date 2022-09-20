@@ -18,7 +18,7 @@ class ShoppingCartViewController: UIViewController {
     
     @IBOutlet weak var totalReductionText: UITextField!
     
-    @IBOutlet weak var submitButton: UIButton!
+    @IBOutlet weak var submitButtonPressed: UIButton!
     
     @IBOutlet weak var goBackButtonPressed: UIButton!
     

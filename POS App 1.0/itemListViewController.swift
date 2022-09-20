@@ -11,7 +11,7 @@ class ItemListViewController: UIViewController {
 
     @IBOutlet weak var itemListLabel: UILabel!
     @IBOutlet weak var totalAmountText: UITextField!
-    @IBOutlet weak var goToShoppingCartButton: UIButton!
+    @IBOutlet weak var goToShoppingCartButtonPressed: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
