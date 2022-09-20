@@ -79,6 +79,16 @@
                                 <rect key="frame" x="-7" y="105" width="421" height="475"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReusableCell" id="gMF-lJ-S8c">
+                                        <rect key="frame" x="0.0" y="44.5" width="421" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gMF-lJ-S8c" id="Xnr-U4-vyp">
+                                            <rect key="frame" x="0.0" y="0.0" width="421" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="共3件" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cV4-Ch-Wgh">
                                 <rect key="frame" x="297" y="600" width="97" height="34"/>
@@ -125,6 +135,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="OgN-2A-Ebz"/>
                     <connections>
+                        <outlet property="cartItemsTable" destination="qSZ-4r-G8r" id="DI8-tB-vK4"/>
                         <outlet property="shoppingCartLabel" destination="xET-Bu-iWu" id="yxo-bs-Zu9"/>
                         <outlet property="totalAmoutText" destination="SCV-Fp-PZi" id="IBx-yh-lUh"/>
                         <outlet property="totalPieceText" destination="cV4-Ch-Wgh" id="sHv-Se-26O"/>

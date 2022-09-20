@@ -15,6 +15,7 @@ class ShoppingCartViewController: UIViewController {
         CartItem(name: "可乐", number: 2, total: 6, reduction: 0)
     ]
     
+    @IBOutlet weak var cartItemsTable: UITableView!
     @IBOutlet weak var shoppingCartLabel: UILabel!
 
     @IBOutlet weak var totalPieceText: UITextField!
@@ -30,8 +31,22 @@ class ShoppingCartViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     override func viewDidLoad() {
+        super.viewDidLoad()
+        cartItemsTable.dataSource = self
         
     }
     
+}
+
+extension ShoppingCartViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return cartItems.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath)
+        cell.textLabel?.text = cartItems[1].name
+        return cell
+    }
 }
        
