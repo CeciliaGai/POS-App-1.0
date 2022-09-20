@@ -52,6 +52,7 @@
                     </view>
                     <connections>
                         <outlet property="itemListLabel" destination="DnG-jH-0vD" id="g4b-4x-iSg"/>
+                        <outlet property="itemListTable" destination="xjJ-uE-nXt" id="P83-0Z-rbo"/>
                         <outlet property="totalAmountText" destination="rTp-su-z5o" id="WXF-8S-O4R"/>
                     </connections>
                 </viewController>

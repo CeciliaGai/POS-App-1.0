@@ -21,6 +21,7 @@ class ItemListViewController: UIViewController {
     @IBAction func goToShoppingCartButtonPressed(_ sender: UIButton) {
     }
     
+    @IBOutlet weak var itemListTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
