@@ -97,10 +97,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="718.52678571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--Shopping Cart View Controller-->
         <scene sceneID="N1P-Op-rW9">
             <objects>
-                <viewController id="b13-UL-uti" sceneMemberID="viewController">
+                <viewController id="b13-UL-uti" customClass="ShoppingCartViewController" customModule="POS_App_1_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Oh1-PZ-99s">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -16,6 +16,7 @@
 		80BE23B528D95D8A00AC7EDD /* POS_App_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23B428D95D8A00AC7EDD /* POS_App_1_0Tests.swift */; };
 		80BE23BF28D95D8A00AC7EDD /* POS_App_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23BE28D95D8A00AC7EDD /* POS_App_1_0UITests.swift */; };
 		80BE23C128D95D8A00AC7EDD /* POS_App_1_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23C028D95D8A00AC7EDD /* POS_App_1_0UITestsLaunchTests.swift */; };
+		80BE23CE28D990A600AC7EDD /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23CD28D990A600AC7EDD /* ShoppingCartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		80BE23BA28D95D8A00AC7EDD /* POS App 1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POS App 1.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BE23BE28D95D8A00AC7EDD /* POS_App_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POS_App_1_0UITests.swift; sourceTree = "<group>"; };
 		80BE23C028D95D8A00AC7EDD /* POS_App_1_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POS_App_1_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80BE23CD28D990A600AC7EDD /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				80BE239D28D95D8900AC7EDD /* AppDelegate.swift */,
 				80BE239F28D95D8900AC7EDD /* SceneDelegate.swift */,
 				80BE23A128D95D8900AC7EDD /* ItemListViewController.swift */,
+				80BE23CD28D990A600AC7EDD /* ShoppingCartViewController.swift */,
 				80BE23A328D95D8900AC7EDD /* Main.storyboard */,
 				80BE23A628D95D8A00AC7EDD /* Assets.xcassets */,
 				80BE23A828D95D8A00AC7EDD /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80BE23CE28D990A600AC7EDD /* ShoppingCartViewController.swift in Sources */,
 				80BE23A228D95D8900AC7EDD /* ItemListViewController.swift in Sources */,
 				80BE239E28D95D8900AC7EDD /* AppDelegate.swift in Sources */,
 				80BE23A028D95D8900AC7EDD /* SceneDelegate.swift in Sources */,
