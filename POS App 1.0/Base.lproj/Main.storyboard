@@ -147,6 +147,13 @@
                         <viewLayoutGuide key="safeArea" id="ZtT-cb-q4g"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="shoppingCartLabel" destination="xET-Bu-iWu" id="yxo-bs-Zu9"/>
+                        <outlet property="submitButton" destination="Zdk-Yh-bAm" id="NRr-pU-fIO"/>
+                        <outlet property="totalAmoutText" destination="SCV-Fp-PZi" id="IBx-yh-lUh"/>
+                        <outlet property="totalPieceText" destination="cV4-Ch-Wgh" id="sHv-Se-26O"/>
+                        <outlet property="totalReductionText" destination="kKf-XO-q2I" id="TR9-DZ-acn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fF4-bA-ozL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
