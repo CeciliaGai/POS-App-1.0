@@ -9,6 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var itemListLabel: UILabel!
+    @IBOutlet weak var totalAmountText: UITextField!
+    @IBOutlet weak var goToShoppingCartButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

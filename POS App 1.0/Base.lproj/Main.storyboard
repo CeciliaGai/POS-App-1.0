@@ -46,6 +46,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="goToShoppingCartButton" destination="T92-Fv-agk" id="b4P-Zp-TwS"/>
+                        <outlet property="itemListLabel" destination="DnG-jH-0vD" id="g4b-4x-iSg"/>
+                        <outlet property="totalAmountText" destination="rTp-su-z5o" id="WXF-8S-O4R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
