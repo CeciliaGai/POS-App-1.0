@@ -15,6 +15,8 @@ class ReceiptViewController: UIViewController {
     
     @IBOutlet weak var totalReductionText: UITextField!
     
+    @IBOutlet weak var goBackButtonPressed: UIButton!
+    
     override func viewDidLoad() {
         
     }

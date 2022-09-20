@@ -20,6 +20,8 @@ class ShoppingCartViewController: UIViewController {
     
     @IBOutlet weak var submitButton: UIButton!
     
+    @IBOutlet weak var goBackButtonPressed: UIButton!
+    
     override func viewDidLoad() {
         
     }
