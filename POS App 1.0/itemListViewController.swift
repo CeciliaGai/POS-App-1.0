@@ -22,11 +22,22 @@ class ItemListViewController: UIViewController {
     }
     
     @IBOutlet weak var itemListTable: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        itemListTable.dataSource = self
     }
+}
 
-
+extension ItemListViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return items.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath)
+        cell.textLabel?.text = items[0].name
+        return cell
+    }
 }
 
