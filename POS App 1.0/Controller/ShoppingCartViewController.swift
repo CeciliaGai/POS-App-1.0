@@ -15,6 +15,8 @@ class ShoppingCartViewController: UIViewController {
         CartItem(name: "可乐", number: 2, total: 6, reduction: 0, price: 2)
     ]
     
+    var cartItemManager = CartItemManager()
+    
     @IBOutlet weak var cartItemsTable: UITableView!
     @IBOutlet weak var shoppingCartLabel: UILabel!
 
@@ -32,6 +34,7 @@ class ShoppingCartViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        cartItems = cartItemManager.getCartItems()
         cartItemsTable.dataSource = self
         cartItemsTable.register(UINib(nibName: "CartItemCell", bundle: nil), forCellReuseIdentifier: "ReusableCellCartItemPage")
         
