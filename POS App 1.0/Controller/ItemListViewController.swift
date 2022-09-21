@@ -9,6 +9,7 @@ import UIKit
 
 class ItemListViewController: UIViewController {
 
+    let itemManager = ItemManager()
     @IBOutlet weak var itemListLabel: UILabel!
     @IBOutlet weak var totalAmountText: UITextField!
     
@@ -24,6 +25,7 @@ class ItemListViewController: UIViewController {
     @IBOutlet weak var itemListTable: UITableView!
     
     override func viewDidLoad() {
+        itemManager.fetchItems(itemURL: itemManager.itemURL)
         super.viewDidLoad()
         itemListTable.dataSource = self
         itemListTable.register(UINib(nibName: "ItemCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")

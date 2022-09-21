@@ -27,6 +27,7 @@
 		80BE23EA28DAB24500AC7EDD /* ReceiptItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23E928DAB24500AC7EDD /* ReceiptItem.swift */; };
 		80BE23ED28DAB4ED00AC7EDD /* ReceiptItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23EB28DAB4ED00AC7EDD /* ReceiptItemCell.swift */; };
 		80BE23EE28DAB4ED00AC7EDD /* ReceiptItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BE23EC28DAB4ED00AC7EDD /* ReceiptItemCell.xib */; };
+		80BE23F628DACCC000AC7EDD /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23F528DACCC000AC7EDD /* ItemManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		80BE23E928DAB24500AC7EDD /* ReceiptItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptItem.swift; sourceTree = "<group>"; };
 		80BE23EB28DAB4ED00AC7EDD /* ReceiptItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptItemCell.swift; sourceTree = "<group>"; };
 		80BE23EC28DAB4ED00AC7EDD /* ReceiptItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptItemCell.xib; sourceTree = "<group>"; };
+		80BE23F528DACCC000AC7EDD /* ItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,15 +124,11 @@
 			isa = PBXGroup;
 			children = (
 				80BE23E028DAA39100AC7EDD /* Model */,
-				80BE23DF28DAA36A00AC7EDD /* Delegate */,
+				80BE23EF28DAB98500AC7EDD /* View */,
 				80BE23DD28DAA32300AC7EDD /* Controller */,
-				80BE23A328D95D8900AC7EDD /* Main.storyboard */,
-				80BE23A828D95D8A00AC7EDD /* LaunchScreen.storyboard */,
-				80BE23D828D9B24400AC7EDD /* ItemCell.xib */,
+				80BE23DF28DAA36A00AC7EDD /* Delegate */,
 				80BE23A628D95D8A00AC7EDD /* Assets.xcassets */,
 				80BE23AB28D95D8A00AC7EDD /* Info.plist */,
-				80BE23E228DAA4E000AC7EDD /* CartItemCell.xib */,
-				80BE23EC28DAB4ED00AC7EDD /* ReceiptItemCell.xib */,
 			);
 			path = "POS App 1.0";
 			sourceTree = "<group>";
@@ -174,14 +172,59 @@
 		80BE23E028DAA39100AC7EDD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				80BE23F228DAB9D600AC7EDD /* Item */,
+				80BE23F328DAB9E000AC7EDD /* CartItem */,
+				80BE23F428DAB9EE00AC7EDD /* ReceiptItem */,
+				80BE23F528DACCC000AC7EDD /* ItemManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80BE23EF28DAB98500AC7EDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80BE23F028DAB99B00AC7EDD /* CellView */,
+				80BE23A328D95D8900AC7EDD /* Main.storyboard */,
+				80BE23A828D95D8A00AC7EDD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80BE23F028DAB99B00AC7EDD /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				80BE23D828D9B24400AC7EDD /* ItemCell.xib */,
+				80BE23E228DAA4E000AC7EDD /* CartItemCell.xib */,
+				80BE23EC28DAB4ED00AC7EDD /* ReceiptItemCell.xib */,
+			);
+			path = CellView;
+			sourceTree = "<group>";
+		};
+		80BE23F228DAB9D600AC7EDD /* Item */ = {
+			isa = PBXGroup;
+			children = (
 				80BE23D128D9AAFE00AC7EDD /* Item.swift */,
 				80BE23D728D9B24400AC7EDD /* ItemCell.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		80BE23F328DAB9E000AC7EDD /* CartItem */ = {
+			isa = PBXGroup;
+			children = (
 				80BE23DB28D9BE8700AC7EDD /* CartItem.swift */,
 				80BE23E128DAA4E000AC7EDD /* CartItemCell.swift */,
+			);
+			path = CartItem;
+			sourceTree = "<group>";
+		};
+		80BE23F428DAB9EE00AC7EDD /* ReceiptItem */ = {
+			isa = PBXGroup;
+			children = (
 				80BE23E928DAB24500AC7EDD /* ReceiptItem.swift */,
 				80BE23EB28DAB4ED00AC7EDD /* ReceiptItemCell.swift */,
 			);
-			path = Model;
+			path = ReceiptItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +371,7 @@
 				80BE23E328DAA4E000AC7EDD /* CartItemCell.swift in Sources */,
 				80BE23D928D9B24400AC7EDD /* ItemCell.swift in Sources */,
 				80BE23D228D9AAFE00AC7EDD /* Item.swift in Sources */,
+				80BE23F628DACCC000AC7EDD /* ItemManager.swift in Sources */,
 				80BE23A028D95D8900AC7EDD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
