@@ -183,6 +183,7 @@
                     </view>
                     <connections>
                         <outlet property="receiptLabel" destination="Uzp-nx-eTT" id="fe0-Ep-BYZ"/>
+                        <outlet property="receiptTable" destination="7gc-ma-12i" id="CbZ-lD-bOE"/>
                         <outlet property="totalAmountText" destination="Eu1-s3-Vqt" id="Ezk-K6-ayY"/>
                         <outlet property="totalReductionText" destination="4BT-RT-anP" id="feI-zs-zq8"/>
                     </connections>

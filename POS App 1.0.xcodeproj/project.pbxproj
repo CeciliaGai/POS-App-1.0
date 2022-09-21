@@ -25,6 +25,8 @@
 		80BE23E328DAA4E000AC7EDD /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23E128DAA4E000AC7EDD /* CartItemCell.swift */; };
 		80BE23E428DAA4E000AC7EDD /* CartItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BE23E228DAA4E000AC7EDD /* CartItemCell.xib */; };
 		80BE23EA28DAB24500AC7EDD /* ReceiptItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23E928DAB24500AC7EDD /* ReceiptItem.swift */; };
+		80BE23ED28DAB4ED00AC7EDD /* ReceiptItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23EB28DAB4ED00AC7EDD /* ReceiptItemCell.swift */; };
+		80BE23EE28DAB4ED00AC7EDD /* ReceiptItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BE23EC28DAB4ED00AC7EDD /* ReceiptItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		80BE23E128DAA4E000AC7EDD /* CartItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemCell.swift; sourceTree = "<group>"; };
 		80BE23E228DAA4E000AC7EDD /* CartItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartItemCell.xib; sourceTree = "<group>"; };
 		80BE23E928DAB24500AC7EDD /* ReceiptItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptItem.swift; sourceTree = "<group>"; };
+		80BE23EB28DAB4ED00AC7EDD /* ReceiptItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptItemCell.swift; sourceTree = "<group>"; };
+		80BE23EC28DAB4ED00AC7EDD /* ReceiptItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 				80BE23A628D95D8A00AC7EDD /* Assets.xcassets */,
 				80BE23AB28D95D8A00AC7EDD /* Info.plist */,
 				80BE23E228DAA4E000AC7EDD /* CartItemCell.xib */,
+				80BE23EC28DAB4ED00AC7EDD /* ReceiptItemCell.xib */,
 			);
 			path = "POS App 1.0";
 			sourceTree = "<group>";
@@ -169,11 +174,12 @@
 		80BE23E028DAA39100AC7EDD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				80BE23D728D9B24400AC7EDD /* ItemCell.swift */,
 				80BE23D128D9AAFE00AC7EDD /* Item.swift */,
+				80BE23D728D9B24400AC7EDD /* ItemCell.swift */,
 				80BE23DB28D9BE8700AC7EDD /* CartItem.swift */,
 				80BE23E128DAA4E000AC7EDD /* CartItemCell.swift */,
 				80BE23E928DAB24500AC7EDD /* ReceiptItem.swift */,
+				80BE23EB28DAB4ED00AC7EDD /* ReceiptItemCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -285,6 +291,7 @@
 				80BE23DA28D9B24400AC7EDD /* ItemCell.xib in Resources */,
 				80BE23AA28D95D8A00AC7EDD /* LaunchScreen.storyboard in Resources */,
 				80BE23A728D95D8A00AC7EDD /* Assets.xcassets in Resources */,
+				80BE23EE28DAB4ED00AC7EDD /* ReceiptItemCell.xib in Resources */,
 				80BE23E428DAA4E000AC7EDD /* CartItemCell.xib in Resources */,
 				80BE23A528D95D8900AC7EDD /* Main.storyboard in Resources */,
 			);
@@ -315,6 +322,7 @@
 				80BE23A228D95D8900AC7EDD /* ItemListViewController.swift in Sources */,
 				80BE23DC28D9BE8700AC7EDD /* CartItem.swift in Sources */,
 				80BE23EA28DAB24500AC7EDD /* ReceiptItem.swift in Sources */,
+				80BE23ED28DAB4ED00AC7EDD /* ReceiptItemCell.swift in Sources */,
 				80BE23D028D9936900AC7EDD /* ReceiptViewController.swift in Sources */,
 				80BE239E28D95D8900AC7EDD /* AppDelegate.swift in Sources */,
 				80BE23E328DAA4E000AC7EDD /* CartItemCell.swift in Sources */,
