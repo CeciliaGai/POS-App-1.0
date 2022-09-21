@@ -25,7 +25,9 @@ class ItemListViewController: UIViewController {
     @IBOutlet weak var itemListTable: UITableView!
     
     override func viewDidLoad() {
-        itemManager.fetchItems(itemURL: itemManager.itemURL)
+        itemManager.fetchItems(itemURL: itemManager.itemURL) { items in
+            self.items = items
+        }
         super.viewDidLoad()
         itemListTable.dataSource = self
         itemListTable.register(UINib(nibName: "ItemCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
@@ -40,6 +42,9 @@ extension ItemListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath)
         as! ItemCell
+        cell.nameLabel.text = items[indexPath.row].name
+        cell.priceLabel.text = String(items[indexPath.row].price)
+        cell.unitLabel.text = items[indexPath.row].unit
         return cell
     }
 }

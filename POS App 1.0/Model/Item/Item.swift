@@ -8,7 +8,7 @@
 import Foundation
 
 struct Item {
-    let name: String
-    let unit: String
-    let price: Float
+    var name: String
+    var unit: String
+    var price: Float
 }
