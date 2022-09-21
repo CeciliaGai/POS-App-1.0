@@ -9,7 +9,7 @@ import Foundation
 
 struct CartItem {
     let name: String
-    let number: Int
+    var number: Int
     let total: Float
     let reduction: Float
     let price: Float

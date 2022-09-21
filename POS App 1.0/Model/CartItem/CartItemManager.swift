@@ -16,4 +16,9 @@ struct CartItemManager {
         "电池": CartItem(name: "电池", number: 0, total: 0, reduction: 0, price: 2),
         "方便面": CartItem(name: "方便面", number: 0, total: 0, reduction: 0, price: 4.5)
     ]
+    
+    mutating func addItem(itemName: String) {
+        purchasedDB[itemName]?.number += 1
+        
+    }
 }

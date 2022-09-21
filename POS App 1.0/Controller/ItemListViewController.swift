@@ -10,6 +10,7 @@ import UIKit
 class ItemListViewController: UIViewController {
 
     let itemManager = ItemManager()
+    let cartItemManager = CartItemManager()
     @IBOutlet weak var itemListLabel: UILabel!
     @IBOutlet weak var totalAmountText: UITextField!
     
