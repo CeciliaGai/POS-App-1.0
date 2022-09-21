@@ -29,7 +29,7 @@
 		80BE23EE28DAB4ED00AC7EDD /* ReceiptItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BE23EC28DAB4ED00AC7EDD /* ReceiptItemCell.xib */; };
 		80BE23F628DACCC000AC7EDD /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23F528DACCC000AC7EDD /* ItemManager.swift */; };
 		80BE23F828DAE22A00AC7EDD /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23F728DAE22A00AC7EDD /* ItemData.swift */; };
-		80BE23FA28DB041800AC7EDD /* cartItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23F928DB041800AC7EDD /* cartItemManager.swift */; };
+		80BE23FC28DB0C4400AC7EDD /* CartItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23FB28DB0C4400AC7EDD /* CartItemManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +76,7 @@
 		80BE23EC28DAB4ED00AC7EDD /* ReceiptItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiptItemCell.xib; sourceTree = "<group>"; };
 		80BE23F528DACCC000AC7EDD /* ItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
 		80BE23F728DAE22A00AC7EDD /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
-		80BE23F928DB041800AC7EDD /* cartItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartItemManager.swift; sourceTree = "<group>"; };
+		80BE23FB28DB0C4400AC7EDD /* CartItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,9 +179,6 @@
 				80BE23F228DAB9D600AC7EDD /* Item */,
 				80BE23F328DAB9E000AC7EDD /* CartItem */,
 				80BE23F428DAB9EE00AC7EDD /* ReceiptItem */,
-				80BE23F528DACCC000AC7EDD /* ItemManager.swift */,
-				80BE23F728DAE22A00AC7EDD /* ItemData.swift */,
-				80BE23F928DB041800AC7EDD /* cartItemManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -211,6 +208,8 @@
 			children = (
 				80BE23D128D9AAFE00AC7EDD /* Item.swift */,
 				80BE23D728D9B24400AC7EDD /* ItemCell.swift */,
+				80BE23F728DAE22A00AC7EDD /* ItemData.swift */,
+				80BE23F528DACCC000AC7EDD /* ItemManager.swift */,
 			);
 			path = Item;
 			sourceTree = "<group>";
@@ -220,6 +219,7 @@
 			children = (
 				80BE23DB28D9BE8700AC7EDD /* CartItem.swift */,
 				80BE23E128DAA4E000AC7EDD /* CartItemCell.swift */,
+				80BE23FB28DB0C4400AC7EDD /* CartItemManager.swift */,
 			);
 			path = CartItem;
 			sourceTree = "<group>";
@@ -369,6 +369,7 @@
 			files = (
 				80BE23CE28D990A600AC7EDD /* ShoppingCartViewController.swift in Sources */,
 				80BE23A228D95D8900AC7EDD /* ItemListViewController.swift in Sources */,
+				80BE23FC28DB0C4400AC7EDD /* CartItemManager.swift in Sources */,
 				80BE23DC28D9BE8700AC7EDD /* CartItem.swift in Sources */,
 				80BE23EA28DAB24500AC7EDD /* ReceiptItem.swift in Sources */,
 				80BE23ED28DAB4ED00AC7EDD /* ReceiptItemCell.swift in Sources */,
@@ -377,7 +378,6 @@
 				80BE23E328DAA4E000AC7EDD /* CartItemCell.swift in Sources */,
 				80BE23D928D9B24400AC7EDD /* ItemCell.swift in Sources */,
 				80BE23D228D9AAFE00AC7EDD /* Item.swift in Sources */,
-				80BE23FA28DB041800AC7EDD /* cartItemManager.swift in Sources */,
 				80BE23F628DACCC000AC7EDD /* ItemManager.swift in Sources */,
 				80BE23A028D95D8900AC7EDD /* SceneDelegate.swift in Sources */,
 				80BE23F828DAE22A00AC7EDD /* ItemData.swift in Sources */,
