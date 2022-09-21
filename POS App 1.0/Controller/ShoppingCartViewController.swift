@@ -33,6 +33,7 @@ class ShoppingCartViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         cartItemsTable.dataSource = self
+        cartItemsTable.register(UINib(nibName: "CartItemCell", bundle: nil), forCellReuseIdentifier: "ReusableCellCartItemPage")
         
     }
     
@@ -44,8 +45,8 @@ extension ShoppingCartViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath)
-        cell.textLabel?.text = cartItems[1].name
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCellCartItemPage", for: indexPath)
+        as! CartItemCell
         return cell
     }
 }

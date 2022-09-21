@@ -22,6 +22,8 @@
 		80BE23D928D9B24400AC7EDD /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23D728D9B24400AC7EDD /* ItemCell.swift */; };
 		80BE23DA28D9B24400AC7EDD /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BE23D828D9B24400AC7EDD /* ItemCell.xib */; };
 		80BE23DC28D9BE8700AC7EDD /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23DB28D9BE8700AC7EDD /* CartItem.swift */; };
+		80BE23E328DAA4E000AC7EDD /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23E128DAA4E000AC7EDD /* CartItemCell.swift */; };
+		80BE23E428DAA4E000AC7EDD /* CartItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BE23E228DAA4E000AC7EDD /* CartItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		80BE23D728D9B24400AC7EDD /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		80BE23D828D9B24400AC7EDD /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
 		80BE23DB28D9BE8700AC7EDD /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		80BE23E128DAA4E000AC7EDD /* CartItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemCell.swift; sourceTree = "<group>"; };
+		80BE23E228DAA4E000AC7EDD /* CartItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +256,7 @@
 				80BE23DA28D9B24400AC7EDD /* ItemCell.xib in Resources */,
 				80BE23AA28D95D8A00AC7EDD /* LaunchScreen.storyboard in Resources */,
 				80BE23A728D95D8A00AC7EDD /* Assets.xcassets in Resources */,
+				80BE23E428DAA4E000AC7EDD /* CartItemCell.xib in Resources */,
 				80BE23A528D95D8900AC7EDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +287,7 @@
 				80BE23DC28D9BE8700AC7EDD /* CartItem.swift in Sources */,
 				80BE23D028D9936900AC7EDD /* ReceiptViewController.swift in Sources */,
 				80BE239E28D95D8900AC7EDD /* AppDelegate.swift in Sources */,
+				80BE23E328DAA4E000AC7EDD /* CartItemCell.swift in Sources */,
 				80BE23D928D9B24400AC7EDD /* ItemCell.swift in Sources */,
 				80BE23D228D9AAFE00AC7EDD /* Item.swift in Sources */,
 				80BE23A028D95D8900AC7EDD /* SceneDelegate.swift in Sources */,
