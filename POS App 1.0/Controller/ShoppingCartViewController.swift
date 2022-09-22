@@ -51,7 +51,7 @@ extension ShoppingCartViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCellCartItemPage", for: indexPath)
         as! CartItemCell
         cell.nameLabel.text = cartItems[indexPath.row].name
-        cell.numberLabel.text = String(cartItems[indexPath.row].price)
+        cell.numberLabel.text = String(cartItems[indexPath.row].number)
         cell.totalLabel.text = String(cartItems[indexPath.row].total)
         cell.reductionLabel.text = String(cartItems[indexPath.row].reduction)
         return cell
