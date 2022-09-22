@@ -10,15 +10,11 @@ import UIKit
 class ItemListViewController: UIViewController {
 
     let itemManager = ItemManager()
-    let cartItemManager = CartItemManager()
+    var cartItemManager = CartItemManager()
     @IBOutlet weak var itemListLabel: UILabel!
     @IBOutlet weak var totalAmountText: UITextField!
     
-    var items: [Item] = [
-        Item(name: "芒果", unit: "斤", price: 5),
-        Item(name: "可乐", unit: "瓶", price: 3),
-        Item(name: "薯片", unit: "袋", price: 4)
-    ]
+    var items: [Item] = []
     
     @IBAction func goToShoppingCartButtonPressed(_ sender: UIButton) {
         
@@ -36,7 +32,15 @@ class ItemListViewController: UIViewController {
     }
 }
 
-extension ItemListViewController: UITableViewDataSource {
+extension ItemListViewController: UITableViewDataSource, ItemCellDelegate {
+    func addToCartButtonPressed(cell: ItemCell) {
+        let itemName = cell.nameLabel.text
+        // cartItemManager.addItem(itemName: cell.nameLabel.text!)
+        var item = cartItemManager.purchasedDB[itemName!]
+        item!.number += 1
+    }
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }
@@ -44,6 +48,7 @@ extension ItemListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath)
         as! ItemCell
+        cell.delegate = self
         cell.nameLabel.text = items[indexPath.row].name
         cell.priceLabel.text = String(items[indexPath.row].price)
         cell.unitLabel.text = items[indexPath.row].unit

@@ -33,6 +33,5 @@ struct CartItemManager {
     
     mutating func addItem(itemName: String) {
         purchasedDB[itemName]?.number += 1
-        
     }
 }
