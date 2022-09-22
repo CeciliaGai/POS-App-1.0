@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct PurchasedDB {
+class PurchasedDB {
+    static let sharedDB = PurchasedDB()
     var itemsDB: [String: CartItem] =
     [
         "可口可乐": CartItem(name: "可口可乐", number: 1, total: 0, reduction: 0, price: 3),

@@ -9,13 +9,12 @@ import Foundation
 struct CartItemManager {
     
     var purchasedItems: [CartItem] = []
-    var db = PurchasedDB()
     
     mutating func getCartItems() -> [CartItem] {
         
-        for (itemName, cartItem) in db.itemsDB {
+        for (itemName, cartItem) in PurchasedDB.sharedDB.itemsDB {
             var cartItem = CartItem(name: "", number: 0, total: 0, reduction: 0, price: 0)
-            cartItem = db.itemsDB[itemName]!
+            cartItem = PurchasedDB.sharedDB.itemsDB[itemName]!
             if cartItem.number != 0 {
                 purchasedItems.append(cartItem)
             }
@@ -24,6 +23,6 @@ struct CartItemManager {
     }
     
     mutating func addItem(itemName: String) {
-        db.itemsDB[itemName]?.number += 1
+        PurchasedDB.sharedDB.itemsDB[itemName]?.number += 1
     }
 }

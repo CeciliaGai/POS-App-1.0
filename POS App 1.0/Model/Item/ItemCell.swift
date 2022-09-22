@@ -14,7 +14,6 @@ protocol ItemCellDelegate: AnyObject {
 class ItemCell: UITableViewCell {
     
     var delegate: ItemCellDelegate?
-    var db = PurchasedDB()
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
@@ -22,8 +21,8 @@ class ItemCell: UITableViewCell {
     @IBAction func addToCartButtonPressed(_ sender: UIButton) {
         delegate?.addToCartButtonPressed(cell: self)
         let itemName = self.nameLabel.text
-        db.itemsDB[itemName!]?.number += 1
-        print(db.itemsDB)
+        PurchasedDB.sharedDB.itemsDB[itemName!]?.number += 1
+        print(PurchasedDB.sharedDB.itemsDB)
     }
     override func awakeFromNib() {
         super.awakeFromNib()
