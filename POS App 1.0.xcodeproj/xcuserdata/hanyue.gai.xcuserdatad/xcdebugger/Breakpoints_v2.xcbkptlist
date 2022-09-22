@@ -94,8 +94,8 @@
             filePath = "POS App 1.0/Controller/ItemListViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -126,8 +126,8 @@
             filePath = "POS App 1.0/Model/Item/ItemCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "setSelected(_:animated:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -142,8 +142,8 @@
             filePath = "POS App 1.0/Model/CartItem/CartItemManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "addItem(itemName:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -174,8 +174,8 @@
             filePath = "POS App 1.0/Model/CartItem/CartItemManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "getCartItems()"
             landmarkType = "7">
          </BreakpointContent>

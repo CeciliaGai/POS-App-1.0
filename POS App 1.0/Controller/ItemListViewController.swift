@@ -34,10 +34,6 @@ class ItemListViewController: UIViewController {
 
 extension ItemListViewController: UITableViewDataSource, ItemCellDelegate {
     func addToCartButtonPressed(cell: ItemCell) {
-        let itemName = cell.nameLabel.text
-        // cartItemManager.addItem(itemName: cell.nameLabel.text!)
-        var item = cartItemManager.purchasedDB[itemName!]
-        item!.number += 1
     }
     
     

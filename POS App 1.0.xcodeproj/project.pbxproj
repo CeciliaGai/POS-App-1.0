@@ -30,6 +30,7 @@
 		80BE23F628DACCC000AC7EDD /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23F528DACCC000AC7EDD /* ItemManager.swift */; };
 		80BE23F828DAE22A00AC7EDD /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23F728DAE22A00AC7EDD /* ItemData.swift */; };
 		80BE23FC28DB0C4400AC7EDD /* CartItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23FB28DB0C4400AC7EDD /* CartItemManager.swift */; };
+		80BE240428DC50BC00AC7EDD /* PurchasedDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE240328DC50BC00AC7EDD /* PurchasedDB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		80BE23F528DACCC000AC7EDD /* ItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
 		80BE23F728DAE22A00AC7EDD /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
 		80BE23FB28DB0C4400AC7EDD /* CartItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemManager.swift; sourceTree = "<group>"; };
+		80BE240328DC50BC00AC7EDD /* PurchasedDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedDB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				80BE23DF28DAA36A00AC7EDD /* Delegate */,
 				80BE23A628D95D8A00AC7EDD /* Assets.xcassets */,
 				80BE23AB28D95D8A00AC7EDD /* Info.plist */,
+				80BE240328DC50BC00AC7EDD /* PurchasedDB.swift */,
 			);
 			path = "POS App 1.0";
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				80BE23DC28D9BE8700AC7EDD /* CartItem.swift in Sources */,
 				80BE23EA28DAB24500AC7EDD /* ReceiptItem.swift in Sources */,
 				80BE23ED28DAB4ED00AC7EDD /* ReceiptItemCell.swift in Sources */,
+				80BE240428DC50BC00AC7EDD /* PurchasedDB.swift in Sources */,
 				80BE23D028D9936900AC7EDD /* ReceiptViewController.swift in Sources */,
 				80BE239E28D95D8900AC7EDD /* AppDelegate.swift in Sources */,
 				80BE23E328DAA4E000AC7EDD /* CartItemCell.swift in Sources */,
