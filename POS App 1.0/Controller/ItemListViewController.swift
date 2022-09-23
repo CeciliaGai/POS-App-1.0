@@ -12,12 +12,11 @@ class ItemListViewController: UIViewController {
     let itemManager = ItemManager()
     var cartItemManager = CartItemManager()
     @IBOutlet weak var itemListLabel: UILabel!
-    @IBOutlet weak var totalAmountText: UITextField!
     
     var items: [Item] = []
     
     @IBAction func goToShoppingCartButtonPressed(_ sender: UIButton) {
-        
+        Calculator.calculator.total = Calculator.calculator.calculatingTotal()
     }
     
     @IBOutlet weak var itemListTable: UITableView!

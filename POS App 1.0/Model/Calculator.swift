@@ -9,8 +9,10 @@ import Foundation
 
 struct Calculator {
     
+    static var calculator = Calculator()
     var allItems = PurchasedDB.sharedDB.itemsDB
-    mutating func calculatingTotal() {
+    var total = 0.0
+    mutating func calculatingTotal() -> Double {
         var total = 0.0
         for (itemName, cartItem) in allItems {
             var cartItem = CartItem(name: "", number: 0, total: 0, reduction: 0, price: 0)
@@ -19,6 +21,6 @@ struct Calculator {
                 total += Double(cartItem.number) * cartItem.price
             }
         }
-        print(total)
+        return(total)
     }
 }

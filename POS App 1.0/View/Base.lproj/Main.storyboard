@@ -29,12 +29,6 @@
                                     <segue destination="b13-UL-uti" kind="show" id="bex-fi-eX9"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="合计：¥ 287.00元" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rTp-su-z5o">
-                                <rect key="frame" x="231" y="741" width="150" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="商品列表" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnG-jH-0vD">
                                 <rect key="frame" x="176" y="65" width="70" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -94,7 +88,6 @@
                     <connections>
                         <outlet property="itemListLabel" destination="DnG-jH-0vD" id="g4b-4x-iSg"/>
                         <outlet property="itemListTable" destination="xjJ-uE-nXt" id="P83-0Z-rbo"/>
-                        <outlet property="totalAmountText" destination="rTp-su-z5o" id="WXF-8S-O4R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -160,13 +153,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="共3件" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cV4-Ch-Wgh">
-                                <rect key="frame" x="297" y="600" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="合计284.00元" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SCV-Fp-PZi">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="合计284.00元" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SCV-Fp-PZi">
                                 <rect key="frame" x="264" y="642" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -208,7 +195,6 @@
                         <outlet property="cartItemsTable" destination="qSZ-4r-G8r" id="DI8-tB-vK4"/>
                         <outlet property="shoppingCartLabel" destination="xET-Bu-iWu" id="yxo-bs-Zu9"/>
                         <outlet property="totalAmoutText" destination="SCV-Fp-PZi" id="IBx-yh-lUh"/>
-                        <outlet property="totalPieceText" destination="cV4-Ch-Wgh" id="sHv-Se-26O"/>
                         <outlet property="totalReductionText" destination="kKf-XO-q2I" id="TR9-DZ-acn"/>
                     </connections>
                 </viewController>
