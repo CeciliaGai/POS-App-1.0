@@ -174,8 +174,8 @@
             filePath = "POS App 1.0/Model/Calculator.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "calculatingTotal()"
             landmarkType = "7">
          </BreakpointContent>

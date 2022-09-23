@@ -18,6 +18,8 @@ struct Calculator {
             var cartItem = CartItem(name: "", number: 0, total: 0, reduction: 0, price: 0)
             cartItem = PurchasedDB.sharedDB.itemsDB[itemName]!
             if cartItem.number != 0 {
+                PurchasedDB.sharedDB.itemsDB[itemName]?.total = Double(cartItem.number) * cartItem.price
+                // cartItem.total = Double(cartItem.number) * cartItem.price
                 total += Double(cartItem.number) * cartItem.price
             }
         }
