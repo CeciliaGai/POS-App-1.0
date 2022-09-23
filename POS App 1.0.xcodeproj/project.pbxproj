@@ -31,6 +31,7 @@
 		80BE23F828DAE22A00AC7EDD /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23F728DAE22A00AC7EDD /* ItemData.swift */; };
 		80BE23FC28DB0C4400AC7EDD /* CartItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23FB28DB0C4400AC7EDD /* CartItemManager.swift */; };
 		80BE240428DC50BC00AC7EDD /* PurchasedDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE240328DC50BC00AC7EDD /* PurchasedDB.swift */; };
+		80BE240628DD850500AC7EDD /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE240528DD850500AC7EDD /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		80BE23F728DAE22A00AC7EDD /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
 		80BE23FB28DB0C4400AC7EDD /* CartItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemManager.swift; sourceTree = "<group>"; };
 		80BE240328DC50BC00AC7EDD /* PurchasedDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedDB.swift; sourceTree = "<group>"; };
+		80BE240528DD850500AC7EDD /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				80BE23F228DAB9D600AC7EDD /* Item */,
 				80BE23F328DAB9E000AC7EDD /* CartItem */,
 				80BE23F428DAB9EE00AC7EDD /* ReceiptItem */,
+				80BE240528DD850500AC7EDD /* Calculator.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				80BE23FC28DB0C4400AC7EDD /* CartItemManager.swift in Sources */,
 				80BE23DC28D9BE8700AC7EDD /* CartItem.swift in Sources */,
 				80BE23EA28DAB24500AC7EDD /* ReceiptItem.swift in Sources */,
+				80BE240628DD850500AC7EDD /* Calculator.swift in Sources */,
 				80BE23ED28DAB4ED00AC7EDD /* ReceiptItemCell.swift in Sources */,
 				80BE240428DC50BC00AC7EDD /* PurchasedDB.swift in Sources */,
 				80BE23D028D9936900AC7EDD /* ReceiptViewController.swift in Sources */,

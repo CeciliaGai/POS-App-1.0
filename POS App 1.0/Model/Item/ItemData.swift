@@ -10,5 +10,5 @@ struct ItemData: Decodable {
     let barcode: String
     let name: String
     let unit: String
-    let price: Float
+    let price: Double
 }

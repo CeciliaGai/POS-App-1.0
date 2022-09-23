@@ -10,5 +10,5 @@ import Foundation
 struct Item {
     var name: String
     var unit: String
-    var price: Float
+    var price: Double
 }

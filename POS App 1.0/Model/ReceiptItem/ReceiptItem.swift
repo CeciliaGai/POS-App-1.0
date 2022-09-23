@@ -10,6 +10,6 @@ import Foundation
 struct ReceiptItem {
     let name: String
     let number: Int
-    let price: Float
-    let subtotal: Float
+    let price: Double
+    let subtotal: Double
 }
