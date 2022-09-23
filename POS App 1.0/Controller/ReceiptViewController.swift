@@ -9,10 +9,8 @@ import Foundation
 import UIKit
 class ReceiptViewController: UIViewController {
     
-    var receiptItems: [ReceiptItem] = [
-        ReceiptItem(name: "芒果", number: 1, price: 5, subtotal: 3.5),
-        ReceiptItem(name: "可乐", number: 2, price: 3, subtotal: 6)
-    ]
+    var cartItems: [CartItem] = []
+    var cartItemManager = CartItemManager()
     
     @IBOutlet weak var receiptTable: UITableView!
     
@@ -27,19 +25,25 @@ class ReceiptViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        cartItems = cartItemManager.getCartItems()
         receiptTable.dataSource = self
         receiptTable.register(UINib(nibName: "ReceiptItemCell", bundle: nil), forCellReuseIdentifier: "ReusableCellReceiptItem")
+        totalAmountText.text = "总额：\(Calculator.calculator.total)元"
     }
 }
 
 extension ReceiptViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return receiptItems.count
+        return cartItems.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCellReceiptItem", for: indexPath)
         as! ReceiptItemCell
+        cell.nameLabel.text = cartItems[indexPath.row].name
+        cell.numberLabel.text = String(cartItems[indexPath.row].number)
+        cell.priceLabel.text = String(cartItems[indexPath.row].price)
+        cell.subtotalLabel.text = String(cartItems[indexPath.row].total)
         return cell
     }
 }
