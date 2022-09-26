@@ -36,8 +36,8 @@ class ShoppingCartViewController: UIViewController {
         cartItems = cartItemManager.getCartItems()
         cartItemsTable.dataSource = self
         cartItemsTable.register(UINib(nibName: "CartItemCell", bundle: nil), forCellReuseIdentifier: "ReusableCellCartItemPage")
-        totalAmoutText.text = "总额：\(total)元"
-        totalReductionText.text = "共减：\(reduction)元"
+        totalAmoutText.text = "总额：\(total) 元"
+        totalReductionText.text = "共减：\(reduction) 元"
     }
     
 }

@@ -30,8 +30,8 @@ class ReceiptViewController: UIViewController {
         cartItems = cartItemManager.getCartItems()
         receiptTable.dataSource = self
         receiptTable.register(UINib(nibName: "ReceiptItemCell", bundle: nil), forCellReuseIdentifier: "ReusableCellReceiptItem")
-        totalAmountText.text = "总额：\(total)元"
-        totalReductionText.text = "满减优惠：\(reduction)元"
+        totalAmountText.text = "总额：\(total) 元"
+        totalReductionText.text = "满减优惠：\(reduction) 元"
     }
 }
 
