@@ -16,7 +16,7 @@ class ItemListViewController: UIViewController {
     var items: [Item] = []
     
     @IBAction func goToShoppingCartButtonPressed(_ sender: UIButton) {
-        Calculator.calculator.total = Calculator.calculator.calculatingTotal()
+        Calculator.calculator.total = Calculator.calculator.calculatingTotal().0
     }
     
     @IBOutlet weak var itemListTable: UITableView!

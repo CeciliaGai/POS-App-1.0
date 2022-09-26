@@ -31,11 +31,13 @@ class ShoppingCartViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        let total = Calculator.calculator.calculatingTotal()
+        let total = Calculator.calculator.calculatingTotal().0
+        let reduction = Calculator.calculator.calculatingTotal().1
         cartItems = cartItemManager.getCartItems()
         cartItemsTable.dataSource = self
         cartItemsTable.register(UINib(nibName: "CartItemCell", bundle: nil), forCellReuseIdentifier: "ReusableCellCartItemPage")
         totalAmoutText.text = "总额：\(total)元"
+        totalReductionText.text = "共减：\(reduction)元"
     }
     
 }

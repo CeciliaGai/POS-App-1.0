@@ -12,7 +12,7 @@ struct Calculator {
     static var calculator = Calculator()
     var promotionList = PromotionList()
     var total = 0.0
-    mutating func calculatingTotal() -> Double {
+    mutating func calculatingTotal() -> (Double, Double) {
         let allItems = PurchasedDB.sharedDB
         var total = 0.0
         var reduction = 0.0
@@ -38,6 +38,6 @@ struct Calculator {
                 }
             }
         }
-        return(total)
+        return(total, reduction)
     }
 }
