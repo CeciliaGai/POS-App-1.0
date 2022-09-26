@@ -6,10 +6,18 @@
 //
 
 import Foundation
-struct PromotionList {
-    let items = [
-        "ITEM000000",
-        "ITEM000001",
-        "ITEM000005"
-        ]
+class PromotionList {
+    
+    static let promotionlist = PromotionList()
+    
+    let promotionManager = PromotionManager()
+    
+    var items = [String]()
+    
+    func getPromotionList() {
+        promotionManager.fetchPromotionList(promotionURL: promotionManager.promotionURL) { items in
+            self.items = items
+        }
+    }
+    
 }

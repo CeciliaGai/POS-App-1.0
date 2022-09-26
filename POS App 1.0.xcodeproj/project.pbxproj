@@ -33,6 +33,8 @@
 		80BE240428DC50BC00AC7EDD /* PurchasedDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE240328DC50BC00AC7EDD /* PurchasedDB.swift */; };
 		80BE240628DD850500AC7EDD /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE240528DD850500AC7EDD /* Calculator.swift */; };
 		80BE240D28E138CB00AC7EDD /* PromotionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE240C28E138CA00AC7EDD /* PromotionList.swift */; };
+		80BE241228E164DC00AC7EDD /* PromotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE241128E164DC00AC7EDD /* PromotionManager.swift */; };
+		80BE241428E1657400AC7EDD /* PromotionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE241328E1657400AC7EDD /* PromotionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		80BE240328DC50BC00AC7EDD /* PurchasedDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedDB.swift; sourceTree = "<group>"; };
 		80BE240528DD850500AC7EDD /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		80BE240C28E138CA00AC7EDD /* PromotionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionList.swift; sourceTree = "<group>"; };
+		80BE241128E164DC00AC7EDD /* PromotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionManager.swift; sourceTree = "<group>"; };
+		80BE241328E1657400AC7EDD /* PromotionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +192,8 @@
 				80BE23F428DAB9EE00AC7EDD /* ReceiptItem */,
 				80BE240528DD850500AC7EDD /* Calculator.swift */,
 				80BE240C28E138CA00AC7EDD /* PromotionList.swift */,
+				80BE241128E164DC00AC7EDD /* PromotionManager.swift */,
+				80BE241328E1657400AC7EDD /* PromotionData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -383,8 +389,10 @@
 				80BE23EA28DAB24500AC7EDD /* ReceiptItem.swift in Sources */,
 				80BE240628DD850500AC7EDD /* Calculator.swift in Sources */,
 				80BE23ED28DAB4ED00AC7EDD /* ReceiptItemCell.swift in Sources */,
+				80BE241428E1657400AC7EDD /* PromotionData.swift in Sources */,
 				80BE240428DC50BC00AC7EDD /* PurchasedDB.swift in Sources */,
 				80BE23D028D9936900AC7EDD /* ReceiptViewController.swift in Sources */,
+				80BE241228E164DC00AC7EDD /* PromotionManager.swift in Sources */,
 				80BE239E28D95D8900AC7EDD /* AppDelegate.swift in Sources */,
 				80BE23E328DAA4E000AC7EDD /* CartItemCell.swift in Sources */,
 				80BE23D928D9B24400AC7EDD /* ItemCell.swift in Sources */,

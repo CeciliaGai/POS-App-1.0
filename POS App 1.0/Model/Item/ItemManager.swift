@@ -52,14 +52,14 @@ struct ItemManager {
     }
     
     func ConvertToItemArray(itemDataArray: [ItemData]) -> [Item] {
-        var ItemArray: [Item] = []
+        var itemArray: [Item] = []
         var item: Item = Item(name: "", unit: "", price: 0)
         for itemData in itemDataArray {
             item.name = itemData.name
             item.price = itemData.price
             item.unit = itemData.unit
-            ItemArray.append(item)
+            itemArray.append(item)
         }
-        return ItemArray
+        return itemArray
     }
 }

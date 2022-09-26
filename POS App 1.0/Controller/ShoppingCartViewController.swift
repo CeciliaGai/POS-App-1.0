@@ -33,6 +33,7 @@ class ShoppingCartViewController: UIViewController {
         super.viewDidLoad()
         let total = Calculator.calculator.calculatingTotal().0
         let reduction = Calculator.calculator.calculatingTotal().1
+        PromotionList.promotionlist.getPromotionList()
         cartItems = cartItemManager.getCartItems()
         cartItemsTable.dataSource = self
         cartItemsTable.register(UINib(nibName: "CartItemCell", bundle: nil), forCellReuseIdentifier: "ReusableCellCartItemPage")

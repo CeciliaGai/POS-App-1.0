@@ -26,6 +26,7 @@ class ItemListViewController: UIViewController {
             self.items = items
         }
         super.viewDidLoad()
+        PromotionList.promotionlist.getPromotionList()
         itemListTable.dataSource = self
         itemListTable.register(UINib(nibName: "ItemCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
     }

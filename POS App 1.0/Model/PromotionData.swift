@@ -6,3 +6,6 @@
 //
 
 import Foundation
+struct PromotionData: Decodable {
+    let barcode: String
+}
