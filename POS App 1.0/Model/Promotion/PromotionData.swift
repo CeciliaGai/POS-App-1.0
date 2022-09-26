@@ -1,0 +1,12 @@
+//
+//  PromotionData.swift
+//  POS App 1.0
+//
+//  Created by Hanyue Gai on 2022/9/23.
+//
+
+import Foundation
+
+struct PromotionData: Decodable {
+    let barcode: String
+}

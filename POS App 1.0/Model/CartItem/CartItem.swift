@@ -13,5 +13,6 @@ struct CartItem {
     var total: Double
     var reduction: Double
     let price: Double
+    let barcode: String
     
 }

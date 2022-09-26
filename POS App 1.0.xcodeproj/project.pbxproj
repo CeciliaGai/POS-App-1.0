@@ -32,6 +32,7 @@
 		80BE23FC28DB0C4400AC7EDD /* CartItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE23FB28DB0C4400AC7EDD /* CartItemManager.swift */; };
 		80BE240428DC50BC00AC7EDD /* PurchasedDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE240328DC50BC00AC7EDD /* PurchasedDB.swift */; };
 		80BE240628DD850500AC7EDD /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE240528DD850500AC7EDD /* Calculator.swift */; };
+		80BE240D28E138CB00AC7EDD /* PromotionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE240C28E138CA00AC7EDD /* PromotionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		80BE23FB28DB0C4400AC7EDD /* CartItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemManager.swift; sourceTree = "<group>"; };
 		80BE240328DC50BC00AC7EDD /* PurchasedDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedDB.swift; sourceTree = "<group>"; };
 		80BE240528DD850500AC7EDD /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		80BE240C28E138CA00AC7EDD /* PromotionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				80BE23F328DAB9E000AC7EDD /* CartItem */,
 				80BE23F428DAB9EE00AC7EDD /* ReceiptItem */,
 				80BE240528DD850500AC7EDD /* Calculator.swift */,
+				80BE240C28E138CA00AC7EDD /* PromotionList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				80BE23D928D9B24400AC7EDD /* ItemCell.swift in Sources */,
 				80BE23D228D9AAFE00AC7EDD /* Item.swift in Sources */,
 				80BE23F628DACCC000AC7EDD /* ItemManager.swift in Sources */,
+				80BE240D28E138CB00AC7EDD /* PromotionList.swift in Sources */,
 				80BE23A028D95D8900AC7EDD /* SceneDelegate.swift in Sources */,
 				80BE23F828DAE22A00AC7EDD /* ItemData.swift in Sources */,
 			);

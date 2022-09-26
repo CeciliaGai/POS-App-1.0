@@ -135,31 +135,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "84C11988-4974-43E6-B57C-790918E9306A"
+            uuid = "7E872AF6-3E32-4D38-AA1F-26C50E65D861"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "POS App 1.0/Model/CartItem/CartItemManager.swift"
+            filePath = "POS App 1.0/Model/Calculator.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "addItem(itemName:)"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "calculatingTotal()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BDE53D4C-76A1-4A48-960E-5E92AE965908"
-            shouldBeEnabled = "No"
+            uuid = "AF6C52ED-2D23-4C7F-A199-D8937A9951AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "POS App 1.0/Model/Calculator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "calculatingTotal()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDC957D2-F5C4-477D-A834-292A5835CFE4"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POS App 1.0/Controller/ShoppingCartViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -167,8 +183,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D2B9BE9F-4B70-4CDD-8A5D-F1C127ECCCAE"
-            shouldBeEnabled = "No"
+            uuid = "D2346D59-3086-41A7-89BC-4232A7B389E7"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "POS App 1.0/Model/Calculator.swift"
